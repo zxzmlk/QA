@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+AN2yAYil50JEDgF3MYKP6JPZWU4xtfVF3fTus85An9s0PbdiJmJb/kz0KJ5ayMBLObk/sKmrw0xjr9s2OLVgA==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\Car\\Car.csproj",
+  "expectedPackageFiles": [
+    "D:\\Users\\Null.HOME-PC\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
+    "D:\\Users\\Null.HOME-PC\\.nuget\\packages\\reportgenerator\\5.2.5\\reportgenerator.5.2.5.nupkg.sha512"
+  ],
+  "logs": []
+}

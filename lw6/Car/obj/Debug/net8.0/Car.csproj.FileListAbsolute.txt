@@ -1,0 +1,14 @@
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\bin\Debug\net8.0\Car.exe
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\bin\Debug\net8.0\Car.deps.json
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\bin\Debug\net8.0\Car.runtimeconfig.json
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\bin\Debug\net8.0\Car.dll
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\bin\Debug\net8.0\Car.pdb
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\obj\Debug\net8.0\Car.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\obj\Debug\net8.0\Car.AssemblyInfoInputs.cache
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\obj\Debug\net8.0\Car.AssemblyInfo.cs
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\obj\Debug\net8.0\Car.csproj.CoreCompileInputs.cache
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\obj\Debug\net8.0\Car.dll
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\obj\Debug\net8.0\refint\Car.dll
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\obj\Debug\net8.0\Car.pdb
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\obj\Debug\net8.0\Car.genruntimeconfig.cache
+D:\Users\Null.HOME-PC\Documents\GitHub\QA\lab6\Car\obj\Debug\net8.0\ref\Car.dll
