@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\CarTest\\CarTest.csproj": {}
+    "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\CarTest\\CarTest.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\CarTest\\CarTest.csproj": {
+    "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\CarTest\\CarTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\CarTest\\CarTest.csproj",
+        "projectUniqueName": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\CarTest\\CarTest.csproj",
         "projectName": "CarTest",
-        "projectPath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\CarTest\\CarTest.csproj",
+        "projectPath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\CarTest\\CarTest.csproj",
         "packagesPath": "D:\\Users\\Null.HOME-PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\CarTest\\obj\\",
+        "outputPath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\CarTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Null.HOME-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\Car\\Car.csproj": {
-                "projectPath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\Car\\Car.csproj"
+              "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\Car\\Car.csproj": {
+                "projectPath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\Car\\Car.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\Car\\Car.csproj": {
+    "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\Car\\Car.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\Car\\Car.csproj",
+        "projectUniqueName": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\Car\\Car.csproj",
         "projectName": "Car",
-        "projectPath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\Car\\Car.csproj",
+        "projectPath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\Car\\Car.csproj",
         "packagesPath": "D:\\Users\\Null.HOME-PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\Car\\obj\\",
+        "outputPath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\Car\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\Null.HOME-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

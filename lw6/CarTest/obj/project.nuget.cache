@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/e/CuJv6zdzWRpPyPevWe3K0Bf0McY6ySQH6Li85VL7ahKltbW71Yy9260UYLju09j0UmGN0mYg7/6aYMuB/eQ==",
+  "dgSpecHash": "WJNtSv7f4GgckG0EWfmaeHRwjybXCU9VK7XlsdnUTDuoBnIwBLKqsouaUaE7MqVnnOdZjB3k9JYemq2flH1WLQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lab6\\CarTest\\CarTest.csproj",
+  "projectFilePath": "D:\\Users\\Null.HOME-PC\\Documents\\GitHub\\QA\\lw6\\CarTest\\CarTest.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\Null.HOME-PC\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "D:\\Users\\Null.HOME-PC\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
