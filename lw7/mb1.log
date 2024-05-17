@@ -1,0 +1,10 @@
+{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2024-05-17T11:03:54.945Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-05-17T11:03:54.956Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2024-05-17T11:03:54.976Z"}
+{"level":"info","message":"[http:3000] Open for business...","timestamp":"2024-05-17T11:03:55.006Z"}
+{"level":"info","message":"[http:3000] ::1:49968 => GET /RUB","timestamp":"2024-05-17T11:03:55.069Z"}
+{"level":"info","message":"[http:3000] ::1:49969 => GET /AUD","timestamp":"2024-05-17T11:03:55.080Z"}
+{"level":"info","message":"[http:3000] ::1:49970 => GET /EUR","timestamp":"2024-05-17T11:03:55.084Z"}
+{"level":"info","message":"[http:3000] ::1:49971 => GET /USD","timestamp":"2024-05-17T11:03:55.091Z"}
+{"level":"info","message":"[http:3000] ::1:49972 => GET /GBP","timestamp":"2024-05-17T11:03:55.094Z"}
+{"level":"info","message":"[http:3000] ::1:49973 => GET /","timestamp":"2024-05-17T11:03:55.099Z"}

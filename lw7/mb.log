@@ -1,8 +1,18 @@
-{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2024-05-15T10:07:05.598Z"}
-{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-05-15T10:07:05.610Z"}
-{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2024-05-15T10:07:05.630Z"}
-{"level":"info","message":"[http:3000] Open for business...","timestamp":"2024-05-15T10:07:05.657Z"}
-{"level":"info","message":"[http:3000] ::1:50879 => GET /AUD","timestamp":"2024-05-15T10:07:05.699Z"}
-{"level":"info","message":"[http:3000] ::1:50880 => GET /RUB","timestamp":"2024-05-15T10:07:05.712Z"}
-{"level":"info","message":"[http:3000] ::1:50881 => GET /USD","timestamp":"2024-05-15T10:07:05.715Z"}
-{"level":"info","message":"[http:3000] ::1:50882 => GET /EUR","timestamp":"2024-05-15T10:07:05.721Z"}
+{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2024-05-17T11:04:37.388Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2024-05-17T11:04:37.400Z"}
+{"level":"info","message":"[mb:2525] POST /imposters","timestamp":"2024-05-17T11:04:37.461Z"}
+{"level":"info","message":"[http:3000] Open for business...","timestamp":"2024-05-17T11:04:37.489Z"}
+{"level":"info","message":"[http:3000] ::1:49977 => GET /RUB","timestamp":"2024-05-17T11:04:37.555Z"}
+{"level":"info","message":"[http:3000] ::1:49978 => GET /AUD","timestamp":"2024-05-17T11:04:37.563Z"}
+{"level":"info","message":"[http:3000] ::1:49979 => GET /USD","timestamp":"2024-05-17T11:04:37.569Z"}
+{"level":"info","message":"[http:3000] ::1:49980 => GET /EUR","timestamp":"2024-05-17T11:04:37.577Z"}
+{"level":"info","message":"[http:3000] ::1:49981 => GET /GBP","timestamp":"2024-05-17T11:04:37.582Z"}
+{"level":"info","message":"[http:3000] ::1:49982 => GET /","timestamp":"2024-05-17T11:04:37.589Z"}
+{"level":"info","message":"[http:3000] ::1:49989 => GET /","timestamp":"2024-05-17T11:05:00.841Z"}
+{"level":"info","message":"[http:3000] ::1:49990 => GET /favicon.ico","timestamp":"2024-05-17T11:05:01.115Z"}
+{"level":"info","message":"[http:3000] ::1:49991 => GET /FF","timestamp":"2024-05-17T11:05:08.119Z"}
+{"level":"info","message":"[http:3000] ::1:49992 => GET /favicon.ico","timestamp":"2024-05-17T11:05:08.242Z"}
+{"level":"info","message":"[http:3000] ::1:49993 => GET /GBP","timestamp":"2024-05-17T11:05:12.898Z"}
+{"level":"info","message":"[http:3000] ::1:49994 => GET /favicon.ico","timestamp":"2024-05-17T11:05:13.011Z"}
+{"level":"info","message":"[http:3000] ::1:49995 => GET /rubr","timestamp":"2024-05-17T11:05:15.972Z"}
+{"level":"info","message":"[http:3000] ::1:49996 => GET /favicon.ico","timestamp":"2024-05-17T11:05:16.082Z"}

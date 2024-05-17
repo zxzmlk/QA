@@ -17,22 +17,43 @@ Object.keys(exchangeRUB).forEach((currency) => {
     serviceStub.addRoute(currencyExchange.getResponse());
 });
 
+const responseError = {
+    'uri': '/.*',
+    'verb': 'GET',
+    'res': {
+        'statusCode': 404,
+        'responseHeaders': { 'Content-Type': 'application/json' },
+        'responseBody': JSON.stringify({'Error': 'Invalid currency code'}),
+    }
+};
+
+serviceStub.addRoute(responseError);
+
 function makeRequests() {
-    const currencies = Object.keys(exchangeRUB);
-    const requests = currencies.map(currency => {
+    const supportedCurrencies = Object.keys(exchangeRUB);
+    const allCurrencies = [...supportedCurrencies, 'GBP', ''];
+    const requests = allCurrencies.map(currency => {
         return fetch(`http://localhost:3000/${currency}`)
             .then(response => {
                 if (response.status === 200 && response.body) {
                     return response.json();
+                } else if (response.status === 404) {
+                    return response.json().then(error => {
+                        throw new Error(`Error for ${currency}: ${error.Error}`);
+                    });
                 } else {
-                    throw new Error("API Error");
+                    throw new Error("Unexpected API Error");
                 }
             })
             .then(data => {
-                console.log(`Response for ${currency}:`, data);
+                if (data.Error) {
+                    console.error(`Error response for ${currency}:`, data);
+                } else { 
+                    console.log(`Response for ${currency}:`, data);
+                }
             })
             .catch(error => {
-                console.error(`Error fetching ${currency}:`, error);
+                console.error(`Error fetching ${currency}:`, error.message);
             });
     });
 
@@ -41,8 +62,10 @@ function makeRequests() {
 
 serviceStub.start().then(() => {
     makeRequests();
-    // Response for AUD: { RUB: '0.02', AUD: '1.00', USD: '1.50', EUR: '1.62' }
     // Response for RUB: { RUB: '1.00', AUD: '60.96', USD: '91.64', EUR: '98.84' }
-    // Response for EUR: { RUB: '0.01', AUD: '0.62', USD: '0.93', EUR: '1.00' }   
-    // Response for USD: { RUB: '0.01', AUD: '0.67', USD: '1.00', EUR: '1.08' } 
+    // Response for AUD: { RUB: '0.02', AUD: '1.00', USD: '1.50', EUR: '1.62' }
+    // Response for EUR: { RUB: '0.01', AUD: '0.62', USD: '0.93', EUR: '1.00' }
+    // Response for USD: { RUB: '0.01', AUD: '0.67', USD: '1.00', EUR: '1.08' }
+    // Error response for GBP: { Error: 'Invalid currency code' }
+    // Error response for : { Error: 'Invalid currency code' }
 });
