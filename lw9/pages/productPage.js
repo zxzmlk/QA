@@ -1,13 +1,12 @@
 class PrdouctPage {
-    get addToCartButton() { return $('#productAdd'); }
-    get quantityField() { return $('//input[@name="quantity"]'); }
-    
     async addToCart() {
-        await this.addToCartButton.click();
+        const addToCartButton = await $('#productAdd');
+        await addToCartButton.click();
     }
 
     async setQuantity(quantity) {
-        await this.quantityField.setValue(quantity);
+        const quantityField = await $('//input[@name="quantity"]');
+        await quantityField.setValue(quantity);
     }
 
     open(productURL) {

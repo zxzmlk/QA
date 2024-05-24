@@ -7,7 +7,7 @@ describe('Catalog Search', () => {
     });
 
     it('should find products with names that match the search', async () => {
-        await catalogPage.findByText(SEARCH_TEXT);
+        await catalogPage.searchProducts(SEARCH_TEXT);
         await browser.waitUntil(
             async () => (await browser.getUrl()) === SEARCH_URL,
             {
@@ -22,7 +22,7 @@ describe('Catalog Search', () => {
     });
 
     it('should change the page title to the text from the search', async () => {
-        await catalogPage.findByText(SEARCH_TEXT);
+        await catalogPage.searchProducts(SEARCH_TEXT);
         await browser.waitUntil(
             async () => (await browser.getUrl()) === SEARCH_URL,
             {
@@ -35,7 +35,7 @@ describe('Catalog Search', () => {
     });
 
     it('should substitute text from search into category navigation', async () => {
-        await catalogPage.findByText(SEARCH_TEXT);
+        await catalogPage.searchProducts(SEARCH_TEXT);
         await browser.waitUntil(
             async () => (await browser.getUrl()) === SEARCH_URL,
             {
@@ -43,7 +43,7 @@ describe('Catalog Search', () => {
                 timeoutMsg: 'Expected URL was not found after 5 seconds'
             }
         );
-        const breadcrumbText = await catalogPage.breadcrumb.getText();
+        const breadcrumbText = await catalogPage.getBreadcrumb();
         expect(breadcrumbText).toBe(SEARCH_BREADCRUMB);
     });
 });
