@@ -42,6 +42,7 @@ describe('Product order', () => {
         await orderPage.registerUser(USER_DATA);
     
         const error = await orderPage.getErrorMessage();
+        //тест не должен проходить
         expect(error).toBe(null);
     });
 
