@@ -18,11 +18,11 @@ describe('Adding products to the cart', () => {
 
         await cartPage.waitForCartToBeDisplayed();
 
-        const productElFromCart = await cartPage.findProductByName('Test Product');
+        const productElFromCart = await cartPage.findProductByName(PRODUCT_PAGE_DATA.name);
         expect(productElFromCart).not.toBeNull();
         const productDataFromCart = await cartPage.extractProductData(productElFromCart);
     
-        // Сравнение всех полей, кроме поля quantity
+        // Сравнение всех полей
         expect(productDataFromCart.name).toEqual(PRODUCT_PAGE_DATA.name);
         expect(productDataFromCart.imageSrc).toEqual(PRODUCT_PAGE_DATA.imageSrc);
         expect(productDataFromCart.price).toEqual(PRODUCT_PAGE_DATA.price);
