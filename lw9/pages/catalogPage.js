@@ -1,24 +1,8 @@
 class CatalogPage {
-    // Получение всех элементов с названиями продуктов
-    async getProductTitles() {
-        return await $$('div.prdt-top h3').getText();
-    }
-
     async getBreadcrumb() {
         return await $('//div[@class="breadcrumbs-main"]/ol/li[2]').getText();
     }
 
-    // Метод для проверки наличия текста в названиях продуктов
-    async isSearchTextPresentInAllTitles(searchText) {
-        const titles = await this.getProductTitles();
-        for (const titleText of titles) {
-            if (!titleText.includes(searchText)) {
-                return false;
-            }
-        }
-        return true;
-    }    
- 
     async open(categoryURL) {
         await browser.url(`http://shop.qatl.ru/${categoryURL}`);
     }
@@ -29,6 +13,18 @@ class CatalogPage {
         const submitButton = await $('//form[@action="search"]//input[@type="submit"]');
         await submitButton.click();
 
+    }
+
+    // Метод для проверки наличия текста в названиях продуктов
+    async isSearchTextPresentInAllTitles(searchText) {
+        const titles = await $$('div.prdt-top h3');
+        for (const title of titles) {
+            const titleText = await title.getText();
+            if (!titleText.includes(searchText)) {
+                return false;
+            }
+        }
+        return true;
     }
 
     // Поиск элемента товара по имени
